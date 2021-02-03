@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #000;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

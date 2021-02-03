@@ -1,0 +1,71 @@
+.gauge {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gauge__body {
+  width: 450px;
+  height: 100px;
+  padding-bottom: 50%;
+  background: #151515;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 400px;
+  background: #F09D37;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gauge__cover {
+  width: 75%;
+  height: 150%;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.meter {
+  position: relative;
+  top: -196px;
+  left: -24px;
+  z-index: 1;
+  width: 400px;
+}
+
+.reading {
+  position: relative;
+  top: -282px;
+  left: -5px;
+  z-index: 2;
+  color: #FEFFFF;
+  font-size: 3em;
+}
+
+.reading .metric {
+  font-size: 0.3em;
+  color: #F09D37;
+  margin-left: 8px;
+}
+
+.container {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  left: 35%;
+  top: 25%;
+}
